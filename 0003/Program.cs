@@ -35,14 +35,9 @@ do
             }
         }
 
-        if (x == false)
+        if (x == true && y == true)
         {
-            if (x == false)
-            {
-
-                Console.WriteLine(p + "," + m);
-
-            }
+            Console.WriteLine(p + "," + m);
         }
     }
 
